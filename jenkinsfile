@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                build 'github-jenkinsfile'
+                build '2ndfreestylejob'
             }
         }
         stage('Test') {
